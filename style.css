@@ -101,6 +101,23 @@
       font-weight: 600;
     }
 
+    .nav-img {
+      width: 26px !important;
+      height: 26px !important;
+      max-width: 26px !important;
+      max-height: 26px !important;
+      min-width: 26px !important;
+      min-height: 26px !important;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+      border: 1.5px solid rgba(108, 99, 255, 0.25);
+      margin: 0 0.2rem;
+      flex-shrink: 0;
+      display: block;
+      overflow: hidden;
+    }
+
     @keyframes pulse {
 
       0%,
